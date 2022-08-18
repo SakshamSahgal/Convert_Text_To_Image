@@ -1,12 +1,16 @@
+#output_pallet_holder td,tr /*output control table*/
+{
+    /* border: 2px solid black; */
+}
+
 #Canvas_Holder /*Canvas holder Div*/
 {
     position: relative;
     align-content: center;
     border: 2px solid black;
     width: 1460px;
-    height: 650px;
-    background-image: url("../Resources/background.png"); 
-    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 550px;
+    background-color: rgba(0, 255, 255, 0.218);
 }
 
 #Output_Canvas /*Canvas*/
@@ -24,22 +28,40 @@
     /* transform: rotate(270deg); */
     -webkit-appearance: slider-vertical; /* WebKit */
     width: 20px;
-    height: 600px;
+    height: 500px;
 }
+
+
+
 #width /*horizontal width slider */
 {
     width: 1360px;
 }
 
-#Vertical_slider_holder   /*vertical height slider holder div*/
+
+#top_bar
 {
-    width: 40px;
-    height: 600px;
+    height: 30px;
+    width: 100%;
+    background-image: url("../Resources/sky.png"); 
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-#output_pallet_holder td,tr /*output control table*/
+
+#Input_Table
 {
-    
+    border: 2px solid black;
+    background-color: rgba(0, 255, 255, 0.264);
 }
 
+#input_textbox
+{
+    width: 1400px;
+    height: 70px;
+}
 
+body
+{
+    background-image: url("../Resources/background.png"); 
+    background-size: cover; /* Resize the background image to cover the entire container */
+}

@@ -4,7 +4,10 @@
 </head>
 <body>
 <link rel="stylesheet" href="CSS/styles.css">
-
+    <div id="top_bar">
+        <h2 align="Center">Text to Image</h2>
+    </div>
+    <hr>
     <table id="output_pallet_holder">
 
         <tr>
@@ -19,9 +22,7 @@
         </tr>
         <tr>
             <td>
-                <div id="Vertical_slider_holder">
-                    <input type="range" id="height" min="100" max="500">
-                </div>
+                <input type="range" id="height" min="100" max="500">
             </td>
         </tr>
         <tr>
@@ -39,9 +40,18 @@
             </td>
         </tr>
     </table>
-    
-
-
+    <hr>
+    <table id="Input_Table">
+        <tr>
+            <td>
+                <p>Char Limit:</p>
+                <p id="char_count" >270000</p>
+            </td>
+            <td>
+                <input type="text" id="input_textbox">
+            </td>
+        </tr>
+    </table>
 <script src="JS/script.js"></script>
 </body>
 </html>
