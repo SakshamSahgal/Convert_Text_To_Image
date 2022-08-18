@@ -4,13 +4,43 @@
 </head>
 <body>
 <link rel="stylesheet" href="CSS/styles.css">
-    
-<div id="Canvas_Holder" align = "Center">
-    <canvas id="Output_Canvas" width="100" height="100"></canvas>
-</div>
 
-<input type="range" id="width" min="100" max="500">
-<input type="range" id="height" min="100" max="500">
+    <table id="output_pallet_holder">
+
+        <tr>
+            <td colspan="3" rowspan="2">
+                <div id="Canvas_Holder" align = "Center">
+                    <canvas id="Output_Canvas" width="300" height="300"></canvas>
+                </div>
+            </td>
+            <td>
+                <p>500px</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="Vertical_slider_holder">
+                    <input type="range" id="height" min="100" max="500">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>100px</p>
+            </td>
+            <td>
+                <input type="range" id="width" min="100" max="500">
+            </td>
+            <td>
+                <p>500px</p>
+            </td>
+            <td>
+                <p>100px</p>
+            </td>
+        </tr>
+    </table>
+    
+
 
 <script src="JS/script.js"></script>
 </body>

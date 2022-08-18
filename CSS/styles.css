@@ -1,14 +1,15 @@
-#Canvas_Holder
+#Canvas_Holder /*Canvas holder Div*/
 {
     position: relative;
     align-content: center;
     border: 2px solid black;
-    width: 1515px;
-    height: 600px;
-    background-color: rgb(127, 255, 244);
+    width: 1460px;
+    height: 650px;
+    background-image: url("../Resources/background.png"); 
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-#Output_Canvas
+#Output_Canvas /*Canvas*/
 {
     margin: 0;
     position: absolute;
@@ -17,3 +18,28 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+#height /*vertical height slider */
+{
+    /* transform: rotate(270deg); */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 20px;
+    height: 600px;
+}
+#width /*horizontal width slider */
+{
+    width: 1360px;
+}
+
+#Vertical_slider_holder   /*vertical height slider holder div*/
+{
+    width: 40px;
+    height: 600px;
+}
+
+#output_pallet_holder td,tr /*output control table*/
+{
+    
+}
+
+
